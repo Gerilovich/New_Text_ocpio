@@ -1,10 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
+import { MyText } from './src/components/MyText';
+
+
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+     <MyText title={'Мой текст!'} h1 bold italic/>
       <StatusBar style="auto" />
     </View>
   );
